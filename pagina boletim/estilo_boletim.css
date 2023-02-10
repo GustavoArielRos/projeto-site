@@ -1,0 +1,132 @@
+
+
+html,body{
+    background: linear-gradient(to right, #000000, #141414);
+    height: 100%;
+    overflow: hidden;
+}
+
+.principal{
+    margin: 0 auto;
+    
+    display: table;
+    text-align: center;
+}
+
+/* a parte onde fica o Linkedin e o Github */
+.periodos{
+    position: fixed;
+    top:170px;
+    left:100px;
+    display:block;
+}
+
+/*estilizando os links*/
+.periodos a{ 
+    text-decoration: none;
+    color:#ffffff;
+    padding: 1rem 4rem;
+    border: 1px solid #ffffff;
+    /*min-width: 4rem;*/ /*largura mínima*/
+    width: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: center;/*alinhar o texto dentro dele*/
+   
+    transition: .5s ease-in-out ;
+    
+}
+
+/*quando o mouse passar em cima , muda de cor*/
+a:hover{
+    
+    background-color: aliceblue;
+    color:black;
+}
+
+/*estilizando o botão voltar*/
+.voltar a{
+    position: fixed;
+    top:10px;
+    left:10px;
+    text-decoration: none;
+    color:#ffffff;
+    padding: 1rem 4rem;
+    border: 1px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;/*alinhar o texto dentro dele*/
+    border-radius: 100%;
+    transition: .5s ease-in-out ;
+}
+
+.voltar a:hover{
+    
+    background-color: aliceblue;
+    color:black;
+}
+
+.principal iframe{
+    
+    border: none;
+    height: 50%;
+    width: 70%;
+    position:fixed;
+    top:170px;
+    left:400px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.tabela{
+    
+    
+    width: 80%;
+    height: 60%;
+    border-color: #ffffff;
+    color: #ffffff;
+    
+
+}
+.nota{
+    text-align: center;
+}
+
+.situacao{
+    text-align: center;
+}
+
+.disciplina{
+    text-align: left;
+}
+
+.Coeficiente_Rendimento h2{
+    position: fixed;
+    top:3px;
+    left:200px;
+    color: #ffffff;
+}
+
+
+.Coeficiente_Rendimento h3{
+    position: fixed;
+    top:90px;
+    left:285px;
+    text-decoration: none;
+    color:#e0dada;
+   
+    padding: 1rem 4rem;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 120px;
+    display: flex;
+    align-items:center;
+    justify-content: center;/*alinhar o texto dentro dele*/
+    border-radius: 100%;
+    transition: .5s ease-in-out ;
+    background-color: #000000;
+    font-size: xx-large;
+}
+   

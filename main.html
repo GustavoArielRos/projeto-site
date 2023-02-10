@@ -1,0 +1,118 @@
+
+<!--Os elementos "CONTAINERS" são aqueles que possuem a capacidade de agrupar outros elementos e desta forma, 
+  conseguem lhes transmitir as suas características de formatação. São meio que "blocks" que contém informações semelhantes,
+  é bom para ajustar a posição das informações.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <!-- 1- o "cabeçário" da página-->
+    <header class ="header-container">
+        <div class="header">
+            <!-- fazendo o menu "hamburguer"-->
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <!-- menu-->
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#">Projetos</a>
+                            </li>
+                            <li>
+                                <a href="pagina boletim/boletim.html">Boletim(CR)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <!--títulos-->
+        <h1>Gustavo Ariel Rossendiz</h1>
+        <h2>Estudante de Bacharelado em Ciência da Computação</h2>
+
+        <!--parte das mídias sociais-->
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/gustaar/">Linkedin</a>
+            <a href="https://github.com/GustavoArielRos">Github</a>
+
+
+        </div>
+
+
+    </header>
+    <!-- 2- o "corpo" da página, onde localiza os projetos-->
+    <main class="container">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Projeto 1 </h2>
+                    <p>Em breve!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                textooooooooooooooooooooooooooooooooooooo
+                ooooooooooooooooooooooooooooooooooooooooo
+                ooooooooooooooooooooooooooooooooooooooooo
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper"><!-- "segura o item de texto e a borda"-->
+                    <h2>Projeto 2 </h2>
+                    <p>Em breve!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                textooooooooooooooooooooooooooooooooooooo
+                ooooooooooooooooooooooooooooooooooooooooo
+                ooooooooooooooooooooooooooooooooooooooooo
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Projeto 3 </h2>
+                    <p>Em breve!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                textooooooooooooooooooooooooooooooooooooo
+                ooooooooooooooooooooooooooooooooooooooooo
+                ooooooooooooooooooooooooooooooooooooooooo
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!-- 3- É o textinho no final-->
+    <footer class="footer">
+        Feito por Gustavo Ariel
+
+    </footer>
+    
+</body>
+</html>
