@@ -1,10 +1,12 @@
 
 
 html,body{
-    background: linear-gradient(to right, #000000, #141414);
+    background: black;
     height: 100%;
     overflow: hidden;
 }
+
+
 
 .principal{
     margin: 0 auto;
@@ -28,12 +30,13 @@ html,body{
     padding: 1rem 4rem;
     border: 1px solid #ffffff;
     /*min-width: 4rem;*/ /*largura mínima*/
+    height: 30px;
     width: 70px;
     display: flex;
     align-items:center;
     justify-content: center;/*alinhar o texto dentro dele*/
    
-    transition: .5s ease-in-out ;
+    
     
 }
 
@@ -42,6 +45,9 @@ a:hover{
     
     background-color: aliceblue;
     color:black;
+    height: 30px;
+    width: 60px;
+    transition: .5s ease-in-out ;
 }
 
 /*estilizando o botão voltar*/
@@ -51,21 +57,26 @@ a:hover{
     left:10px;
     text-decoration: none;
     color:#ffffff;
+    background-color: #000000;
     padding: 1rem 4rem;
     border: 1px solid #ffffff;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 25px;
     display: flex;
     align-items:center;
     justify-content: center;/*alinhar o texto dentro dele*/
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     transition: .5s ease-in-out ;
 }
 
 .voltar a:hover{
     
-    background-color: aliceblue;
+    width: 1px;
+    height: 10px;
+    
+    background-color: rgb(255, 255, 255);
     color:black;
+    transition: .5s ease-in-out ;
 }
 
 .principal iframe{
@@ -76,9 +87,12 @@ a:hover{
     position:fixed;
     top:170px;
     left:400px;
-    background: transparent;
+    
     color: #ffffff;
+    
 }
+
+
 
 .tabela{
     
@@ -87,6 +101,7 @@ a:hover{
     height: 60%;
     border-color: #ffffff;
     color: #ffffff;
+    
     
 
 }
@@ -100,6 +115,12 @@ a:hover{
 
 .disciplina{
     text-align: left;
+}
+
+.titulo_tabela{
+    background-color: #868686;
+    color: rgb(48, 47, 47);
+    text-shadow: #ffffff;
 }
 
 .Coeficiente_Rendimento h2{
